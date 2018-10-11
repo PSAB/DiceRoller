@@ -34,21 +34,10 @@
                                     <action selector="rollButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NQ6-YY-xq1"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dice1" translatesAutoresizingMaskIntoConstraints="NO" id="wvi-hb-9Oo">
-                                <rect key="frame" x="206" y="164" width="115" height="115"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dice1" translatesAutoresizingMaskIntoConstraints="NO" id="3qq-nO-Y6Q">
-                                <rect key="frame" x="55" y="164" width="115" height="115"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <outlet property="diceImageView" destination="3qq-nO-Y6Q" id="Yyk-8O-zZp"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -56,7 +45,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="dice1" width="150" height="150"/>
         <image name="newbackground" width="333" height="311"/>
     </resources>
 </document>
